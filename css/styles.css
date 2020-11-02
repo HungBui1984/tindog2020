@@ -163,6 +163,18 @@ h2 {
       transform: translate(0,0);
     }
 }
+@media (max-width: 600px) {
+    .img-top img {
+      position: static;
+      transform: rotate(0deg);
+    }
+    #title {
+      text-align: center;
+    }
+    .img-top {
+      transform: translate(0,0);
+    }
+}
 /* CTA Section */
 #cta {
   text-align: center;
